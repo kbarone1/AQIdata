@@ -46,6 +46,8 @@ class Data:
         df['Year'] = df['Date'].dt.year
         df['Month'] = df['Date'].dt.month
 
+        return df
+
 
 if __name__ == '__main__':
 
